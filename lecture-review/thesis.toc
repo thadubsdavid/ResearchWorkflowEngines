@@ -1,0 +1,22 @@
+\babel@toc {english}{}
+\contentsline {chapter}{List of Abbrevations}{IV}%
+\contentsline {chapter}{List of Figures}{V}%
+\contentsline {chapter}{List of Tables}{VI}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}%
+\contentsline {section}{\numberline {1.1}Motivation}{1}%
+\contentsline {section}{\numberline {1.2}Background and principles}{1}%
+\contentsline {chapter}{\numberline {2}Modeling languages}{3}%
+\contentsline {section}{\numberline {2.1}Structural perspective}{4}%
+\contentsline {subsection}{\numberline {2.1.1}Entity-relationship model}{4}%
+\contentsline {subsection}{\numberline {2.1.2}Class diagram (UML)}{5}%
+\contentsline {section}{\numberline {2.2}Functional perspective}{7}%
+\contentsline {subsection}{\numberline {2.2.1}Event-driven process chain}{7}%
+\contentsline {subsection}{\numberline {2.2.2}Business Process Model and Notation}{9}%
+\contentsline {section}{\numberline {2.3}Behavioral perspective}{11}%
+\contentsline {subsection}{\numberline {2.3.1}Petri net}{11}%
+\contentsline {subsection}{\numberline {2.3.2}State diagram (UML)}{13}%
+\contentsline {chapter}{\numberline {3}Workflow engines}{15}%
+\contentsline {section}{\numberline {3.1}jBPM}{15}%
+\contentsline {section}{\numberline {3.2}Camunda}{18}%
+\contentsline {chapter}{\numberline {4}Conclusion}{21}%
+\contentsline {chapter}{Bibliography}{VII}%

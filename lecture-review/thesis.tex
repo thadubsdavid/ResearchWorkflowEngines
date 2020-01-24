@@ -1,0 +1,206 @@
+ % Eine der drei folgenden Dokumentenklassen muss gewählt werden.
+% Für alle Abgaben außer der finalen Endabgabe darf das 'final'
+% Schlüsselwort NICHT gesetzt sein.
+% Weitere Hinweise sind im Leitfaden zu finden.
+
+%\documentclass[12pt,titlepage,draft]{book}	% Erstellen der Arbeit und Erstabgabe
+%\documentclass[12pt,titlepage]{book}		% Korrigierte Erstabgabe
+\documentclass[12pt,titlepage,final]{book}	% Finale digitale und gedruckte Abgabe
+%\documentclass[oneside]{book}				% Ohne Zwischenseiten
+
+%\usepackage[ngerman]{babel} % Deutsche Version
+\usepackage[english]{babel} % Englische Version
+
+\usepackage{iflang}
+\usepackage{listings}
+\usepackage{acronym}
+\usepackage[automake]{glossaries}
+\usepackage{em-thesis} 
+\usepackage{titlesec}
+\titleformat{\chapter}[display]{}{\filleft\scshape\chaptername\enspace\thechapter}{-2pt}{\filright \Huge \bfseries}[\vskip4.5pt\titlerule]
+\titleformat{name=\chapter, numberless}[block]{}{}{0pt}{\filright \Huge \bfseries}[\vskip4.5pt\titlerule]
+
+\titlespacing{\chapter}{0pt}{-15pt}{25.5pt}
+\titlespacing{name=\chapter, numberless}{0pt}{16pt}{15pt}
+% Erweitert Klasse book
+% Hier werden automatisch die folgenden Pakete geladen:
+% fontenc, inputenc, graphicx, makeidx, fancyhdr, 
+% array, colortbl, xcolor, longtable, xspace
+
+% Hier weitere eigene Pakete einfügen
+%\usepackage{amsmath} %Erweiterte Satzmöglichkeiten für Mathematik
+%\usepackage{mathpazo} %Palatino-Schrift
+
+% hyperref sollte als letztes Paket geladen werden; dieses ermöglicht Links in PDF
+% Hinweis: Die Verwendung von hyperref fuehrt noch zu identifier-Warnungen wg.
+%          unterschiedlicher Seitennummerierung.
+%\usepackage[plainpages=false, pdfpagelabels]{hyperref}
+
+%\usepackage[dvipdfm]{graphicx}
+%\usepackage{bmpsize}
+
+
+\makeglossaries
+\newglossaryentry{Aaa}{name={ERM},description={Entity Relationship Model}}
+\newglossaryentry{Bbb}{name={UML},description={Unified modelling language}}
+\newglossaryentry{Ccc}{name={BPMN},description={Business Process Modelling Notation}}
+\newglossaryentry{Ddd}{name={EPC},description={Event - driven process chain}}
+\newglossaryentry{Eee}{name={BPMS},description={Business Process Management System}}
+\newglossaryentry{Fff}{name={BPMI},description={Business Process Management Initiative}}
+\newglossaryentry{Ggg}{name={OMG},description={Object Managment Group}}
+\newglossaryentry{Hhh}{name={BPMN 2.0},description={Business Process Modelling Notation 2.0}}
+\newglossaryentry{Iii}{name={CMMN},description={Case Management Model and Notation}}
+\newglossaryentry{Jjj}{name={DMN},description={Decision Management Notation}}
+\newglossaryentry{Kkk}{name={IT},description={Information Technology}}
+\newglossaryentry{Lll}{name={REST},description={Representational State Transfer pattern}}
+\newglossaryentry{Mmm}{name={SOAP},description={Simple Object Access Protocol}}
+\newglossaryentry{Nnn}{name={XML},description={Extended Markup Language}}
+\newglossaryentry{Ooo}{name={KPI},description={Key Performance Indicator}}
+\newglossaryentry{Ppp}{name={TAL},description={Teilnehmeranschlussleitung; english: local loop}}
+\newglossaryentry{IVR}{name={IVR},description={Interactive Voice Response}}
+\newglossaryentry{Qqq}{name={MSA},description={Microservice Architecture}}
+\newglossaryentry{SAFe}{name={SAFe},description={Scaled Agile Framework for}}
+\newglossaryentry{DEVOP}{name={DevOps},description={Development and IT Operation}}
+\newglossaryentry{MS}{name={MS},description={Microservice}}
+\newglossaryentry{WSBPEL}{name={WS-BPEL},description={Webservice-Business Process Execution Language}}
+\newglossaryentry{jpdl}{name={jPDL},description={jBPM Process Definiton Language}}
+
+%\newglossaryentry{Incl}{name={incl.},description={includes [something]}}
+%\newglossaryentry{eg}{name={e.g.},description={for example}}
+%14
+
+
+
+%%Informationen fuer die Titelseite
+\thesisauthor{
+	David Adam and
+	Patrick Schuster
+}
+\matrikel{
+	58126, 57562}
+\thesistype{}
+\thesistitle{Analysis and evaluation of modelling languages and \\ workflow engines}
+%\thesisleiter{Dipl. Ing. Lucia Mejia Dorantes}
+%\thesissupervisors{B. Sc. Jonas Hansert} % Form bei einem Betreuer
+\thesissupervisors[B. Sc. Jonas Hansert]{Dipl. Ing. Lucia Mejia Dorantes} % Form bei zwei Betreuern
+%Startdatum ist optional, bei Nichtgebrauch einfach die Zeile löschen oder auskommentieren
+\thesisenddate{20th\ January 2020}
+
+
+
+% Beispiele für Trennhilfen, falls Fremdworte oder Spezialausdrücke nicht richtig getrennt werden
+% Wichtig! 
+% Im german-paket sind zusätzlich folgende Trennhinweise enthalten:
+% "- = zusätzliche Trennstelle
+% "| = Vermeidung von Ligaturen und mögliche Trennung (bsp: Schaf"|fell)
+% "~ = Bindestrich an dem keine Trennung erlaubt ist (bsp: bergauf und "~ab)
+% "= = Bindestrich bei dem Worte vor und dahinter getrennt werden dürfen
+% "" = Trennstelle ohne Erzeugung eines Trennstrichs (bsp: und/""oder)
+
+% Trennhinweise für Wörter hier beschreiben
+\hyphenation{
+% Pro-to-koll-in-stan-zen
+% Ma-na-ge-ment  Netz-werk-ele-men-ten
+% Netz-werk Netz-werk-re-ser-vie-rung
+% Netz-werk-adap-ter Fein-ju-stier-ung
+% Da-ten-strom-spe-zi-fi-ka-tion Pa-ket-rumpf
+% Kon-troll-in-stanz
+}
+
+%\makeindex
+\begin{document}
+% 
+
+%\begin{onehalfspacing}
+\ifoptionfinal{}{%
+\IfLanguageName{ngerman}{
+	\include{em_includes/coversheet_de}
+}{
+	\include{em_includes/coversheet_en}
+}
+\blankpage % Leerseite auf Titelrückseite
+}
+
+% Titelseite einbinden
+\IfLanguageName{ngerman}{
+	\include{em_includes/titlepage_de}
+}{
+	\include{em_includes/titlepage_en}
+}
+\blankpage % Leerseite auf Titelrückseite
+
+% Erklaerung einbinden
+\IfLanguageName{ngerman}{
+\include{em_includes/declaration_de}
+}{
+% Auch im Englischen bleibt Declaration auf Deutsch!
+\include{em_includes/declaration_de}
+}
+\blankpage % Leerseite auf Erklaerungsrückseite
+
+%% Verzeichnisse
+\pagenumbering{Roman}
+\setcounter{page}{4}
+\let\cleardoublepage\clearpage %Skips blank pages and adds one blank page behind cover
+\addcontentsline{toc}{chapter}{List of Abbrevations}
+
+\tableofcontents
+%\blankpage
+\printglossary[title={List of Abbreviations}] %Generate List of Abbreviations
+%\blankpage
+\addcontentsline{toc}{chapter}{List of Figures}
+\listoffigures   % Falls gewuenscht, Kommentarzeichen am Anfang entfernen.
+%\blankpage
+\addcontentsline{toc}{chapter}{List of Tables}
+\listoftables    % Falls gewuenscht, Kommentarzeichen am Anfang entfernen.
+%\blankpage
+
+
+
+%% Hauptteil
+\pagenumbering{arabic}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Hier beginnt die eigenstaendige Ausarbeitung
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Tipp: Anstatt direkt hier LaTeX-Code einzutippen, kann der Inhalt in anderen Dateien
+%       abgelegt werden und per \input bzw. \include eingebunden werden.
+%       Der Unterschied zwischen \input und \include ist der fehlende Seitenvorschub bei 
+%       \input
+\begin{onehalfspacing}
+\setcounter{page}{0}
+\include{content} % Beispiel
+\end{onehalfspacing}
+
+%% Optional: Anhang
+%\appendix
+%\include{anhang_a}
+%\include{anhang_b}
+
+\cleardoublepage
+
+%% Literatur
+\addcontentsline{toc}{chapter}{\bibname}
+
+\pagenumbering{Roman}
+\setcounter{page}{7}
+\IfLanguageName{ngerman}{
+\bibliographystyle{em_includes/emalphde}
+% Alphanumerische Zitierung (EM Style), deutsch. Ggf. durch andere Varianten 
+% im Ordner em_includes austauschen.
+}{
+\bibliographystyle{em_includes/emalphen}
+% Alphanumeric Citation (EM Style), English.
+}
+
+%\nocite{*} % Alle Quellen anzeigen, die im Bibfile stehen, auch wenn sie nicht im Text referenziert wurden
+\bibliography{literature}
+
+%% Index
+%\addcontentsline{toc}{chapter}{\indexname}
+%\printindex            % Index, Stichwortverzeichnis
+%\end{onehalfspacing}
+\end{document}
+%% end of file

@@ -1,0 +1,149 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{AMM{\etalchar{+}}19}
+\providecommand{\url}[1]{\texttt{#1}}
+\providecommand{\urlprefix}{URL }
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi:\discretionary{}{}{}#1}\else
+  \providecommand{\doi}{doi:\discretionary{}{}{}\begingroup
+  \urlstyle{rm}\Url}\fi
+\providecommand{\selectlanguage}[1]{\relax}
+\providecommand{\eprint}[2][]{\url{#2}}
+
+\bibitem[AMM{\etalchar{+}}19]{AmelieLang.2019}
+{Amelie Lang}, {Markus Wiener}, {Michael Bezold}, {Chris Rupp}, and {Jan
+  Dovica} (2019), Videos im re: Das sagenumwobene umgebungsvideo.
+  \urlprefix\url{https://blog.sophist.de/2019/04/17/videos-im-re-das-sagenumwobene-umgebungsvideo/}.
+
+\bibitem[{And}98]{AndyS.Evans.1998}
+{Andy S. Evans} (1998) \emph{Reasoning with UML Class Diagrams}. {2nd IEEE
+  Workshop on Industrial Strength Formal Specification Techniques}.
+
+\bibitem[{And}08]{AndreaDeLuciaCarmineGravinoRoccoOlivetoGenoveffaTortora.2008}
+{Andrea De Lucia, Carmine Gravino,Rocco Oliveto, Genoveffa Tortora} (2008)
+  \emph{Data Model Comprehension: An Empirical Comparison of ER and UML Class
+  Diagrams}. {16th IEEE International Conference on Program Comprehension}.
+
+\bibitem[BJW16]{Benker.2016}
+Benker, T., J{\"u}rck, C., and Wolf, M. (2016)
+  \emph{Gesch{\"a}ftsprozessorientierte Systementwicklung: Von der
+  Unternehmensarchitektur zum IT-System}. {Springer Science and Business Media
+  : Springer Vieweg}, Wiesbaden.
+
+\bibitem[{Bra}03]{BranSelic.2003}
+{Bran Selic} (2003) \emph{The pragmatics of model-driven development}. {IEEE
+  Xplore}.
+
+\bibitem[BS06]{Bernroider.2006}
+Bernroider, E. and Stix, V. (2006) \emph{Grundz{\"u}ge der Modellierung:
+  Anwendungen in der Softwareentwicklung}. Manual, WUV, Wien, second edition.
+
+\bibitem[{Cam}17]{CamundaServicesGmbH.May2017}
+{Camunda Services GmbH} (May, 2017) \emph{Microservices and BPM}. {Camunda
+  GmbH}, Berlin.
+
+\bibitem[{Cam}19]{CamundaServicesGmbH.2019}
+{Camunda Services GmbH} (2019), Camunda docs - bpm platform.
+  \urlprefix\url{https://docs.camunda.org/manual/7.7/}.
+
+\bibitem[{Dav}87]{DavidHarel.1987}
+{David Harel} (1987) \emph{Statecharts: A visual formalism for complex
+  systems}. {Department of Applied Mathematics, The Weizmann Institute of
+  Science, Rehovot, Israel}.
+
+\bibitem[{Dir}]{DirkStahler.}
+{Dirk St{\"a}hler}, Bpmn verdr{\"a}ngt die epk?
+  \urlprefix\url{https://www.gbtec.de/de/ueber-gbtec/veranstaltungen/webinar_bpmn_vs_epk/}.
+
+\bibitem[{Ed }03]{EdSeidewitz.2003}
+{Ed Seidewitz} (2003) \emph{What Models Mean}. {IEEE Software}.
+
+\bibitem[{EUR}09]{EUROPEANASSOCIATIONOFBPM.2009}
+{EUROPEAN ASSOCIATION OF BPM} (2009) \emph{Business process management common
+  body of knowledge}. {Association of Business Process Management
+  Professionals}, Indiana.
+
+\bibitem[{Fri}]{FriedbertSamland.}
+{Friedbert Samland}, W.T., Monolith to microservice, waterfall to agile -
+  success with camunda.
+
+\bibitem[{G. }92]{G.KellerM.NuttgensA.W.Scheer.Januar1992}
+{G. Keller, M. N{\"u}ttgens, A.-W. Scheer} (Januar 1992) \emph{Semantische
+  Proze{\ss}modellierungauf der Grundlage Ereignisgesteuerter Prozessketten}.
+
+\bibitem[{Ger}]{GeroDecker.}
+{Gero Decker}, W.T. \emph{Migration von EPK zu BPMN}.
+
+\bibitem[{Hui}18]{.2018}
+{Hui Jiang} (2018) \emph{Research and Implementation of Financial Approval
+  System Based on jBPM Engine(IAEAC)}. IEEE, Tianjin, China.
+
+\bibitem[{ISO}04]{ISOIEC159091.122004}
+{ISO/IEC 15909-1} (12-2004), Systems and software engineering -- high-level
+  petri nets.
+
+\bibitem[{Jak}16]{FREUND.2016}
+{Jakob Freund}, B.R. (2016) \emph{PRAXISHANDBUCH BPMN 2.0}. {CARL HANSER Verlag
+  GMBH}.
+
+\bibitem[Kro12]{Krogstie.2012}
+Krogstie, J. (2012) \emph{Model-based development and evolution of information
+  systems}. Springer, London.
+
+\bibitem[{Muh}18]{MuhammadWaseemAnwar.March132018}
+{Muhammad Waseem Anwar} (March 13, 2018) \emph{Event-Driven Process Chain for
+  Modeling and Verification of Business Requirements}. {IEEE Access}.
+
+\bibitem[{Par}93]{ParedesVillegas.1993}
+{Paredes Villegas}, A. (1993) \emph{Research and Design of Document Flow Model
+  Based on JBPM Workflow Engine}. Colecci{\'o}n Ricardo Mir{\'o}, {Instituto
+  Nacional de cultura Direcci{\'o}n Nacional de Extensi{\'o}n Cultural
+  Departamento de Letras}, Panam{\'a}, first edition.
+
+\bibitem[Pet62]{Petri.1962}
+Petri, C.A. (1962) \emph{Kommunikation mit Automaten}. Dissertation,
+  {Fachbereich Informatik}, University Hamburg.
+
+\bibitem[PR15]{Pohl.2015}
+Pohl, K. and Rupp, C. (2015) \emph{Basiswissen Requirements Engineering: Aus-
+  und Weiterbildung zum {\textquotedbl}Certified Professional for Requirements
+  Engineering{\textquotedbl}}. dpunkt-Verlag, Heidelberg, fourth edition.
+
+\bibitem[{Red}19]{RedHat.2019}
+{Red Hat} (2019), Red hat process automation manager.
+  \urlprefix\url{https://www.redhat.com/de/technologies/jboss-middleware/process-automation-manager}.
+
+\bibitem[RJB99]{Rumbaugh.1999}
+Rumbaugh, J., Jacobson, I., and Booch, G. (1999) \emph{The unified modeling
+  language reference manual}. The Addison-Wesley object technology series,
+  Addison-Wesley, Reading, Mass. and Harlow.
+
+\bibitem[{Rob}19]{RobertGimbel.20.2.2019}
+{Robert Gimbel} (20.2.2019), Camunda customer journey.
+  \urlprefix\url{https://de.slideshare.net/camunda/camunda-bpm-in-dach-71590192}.
+
+\bibitem[{Rut}12]{RutTorresVargasAriadiNugrohoMichelChaudronJoostVisser.2012}
+{Rut Torres Vargas, Ariadi Nugroho, Michel Chaudron, Joost Visser} (2012)
+  \emph{The use of UML class diagrams and its effect on code change-proneness}.
+  23rd International Conference on MODELS, {IEEE Software}, Innsbruck, Austria.
+
+\bibitem[{Sha}92]{ShamkantB.Navathe.1992}
+{Shamkant B. Navathe} (1992) \emph{Evolution of data modeling for databases}.
+  {Communication of the ACM}.
+
+\bibitem[Sta73]{Stachowiak.1973}
+Stachowiak, H. (1973) \emph{General Modeltheorie}. {Vienna Springer}, Wien.
+
+\bibitem[TN10]{TerHofstede.2010}
+{Ter Hofstede}, A. and {Nick Russell} (2010) \emph{Modern business process
+  automation: YAWL and its support environment / edited by Arthur H.M. ter
+  Hofstede ... [et al.]}. Springer, Heidelberg.
+
+\bibitem[WRGB13]{Winter.2013}
+Winter, M., Ro{\ss}ner, T., G{\"o}tz, H., and Brandes, C. (2013)
+  \emph{Basiswissen modellbasierter Test}. {dpunkt Verlag}, first edition.
+
+\bibitem[Zha08]{Zhang.2008}
+Zhang, Y. (2008) \emph{Research on workflow patterns based on jBPM {\&} jPDL}.
+  IEEE, Piscataway, NJ.
+
+\end{thebibliography}

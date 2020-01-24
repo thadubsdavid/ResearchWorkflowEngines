@@ -1,0 +1,18 @@
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Abstracted difference between system and system context. \cite {AmelieLang.2019}}}{2}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Model-based documentation divided into three perspectives.}}{3}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Example of an ERM with rental bike scenario.}}{5}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Example of an UML Classdiagram with rental bike scenario.}}{6}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Example of EPC with buying a ticket scenario.}}{8}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces A ticket order process realised in a two lane pool by BPMN.}}{10}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces A navigation system realised as a Petri net.}}{12}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces State diagram with navigation device scenario.}}{14}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Overview jBPM components. \cite {ParedesVillegas.1993}}}{16}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces basic flow of the JBPM workflow enginge. \cite {.2018}}}{16}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Business transformation by using Process Automation Manager.}}{17}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Overview Camunda components. \cite {CamundaServicesGmbH.2019}}}{18}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces MSA of implemented solution with Camunda engines. \cite {FriedbertSamland.}}}{20}%
+\addvspace {10\p@ }

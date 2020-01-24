@@ -1,0 +1,64 @@
+%% Titelseite
+%% Vorlage $Id: titelseite.tex,v 1.2 2001/01/24 20:13:25 bless Exp bless $
+\titlehead{
+	\includegraphics*[width=4cm]{em_includes/hskaLogo} \hfill
+	\includegraphics*[width=4cm]{em_includes/IUMS} 	
+} % end titlehead
+%\titlehead{\includegraphics*[width=4cm]{em_includes/hskaLogo}}
+
+\begin{titlepage}
+%\let\footnotesize\small \let\footnoterule\relax
+\begin{center}
+
+\hbox{}
+\vfill
+{\usebox{\thesistitlesaveone}\par}
+\vskip 1cm
+\usebox{\thesistypesave}\\
+Literature review in\\
+\medskip
+Transportsystem management B.Sc. at\\
+Institute of Ubiquiturious Mobilitysystems\\
+Faculty Informationmanagement and Media\\
+University of Applied Science\\[2ex]
+written by\\[2mm]
+\textbf{\usebox{\thesisauthorsaveone}}\\
+\vspace*{\baselineskip}
+Student number: \\
+\begin{tabular}{l}
+	\usebox{\thesismatrikelsave} \\
+\end{tabular}
+\vskip 1.5cm
+Supervisor: \\[2mm]
+\begin{tabular}{l}
+%\usebox{\thesisleiter}\\
+\usebox{\thesissupervisortwosave} \\
+\end{tabular} \\ [2mm]
+Leading Supervisor: \\[2mm]
+\begin{tabular}{l}
+	%\usebox{\thesisleiter}\\
+	\usebox{\thesissupervisoronesave} \\
+\end{tabular}
+
+
+\vskip 1.5em
+\begin{tabular}{ll}
+\ifthenelse{\boolean{startdatumtext}}{Tag der Anmeldung: &}{}
+\usebox{\thesisstartdatesave} \\
+Submission date: & \usebox{\thesisenddatesave} \\
+\end{tabular}
+
+\vspace*{3em}
+% add versioning information
+%\ifoptionfinal{}{%
+%	\ifoptiondraft{%
+%		\Large\drafttext{Draft}%
+%	}{%
+%		\Large\drafttext{Preprint}%
+%	}
+%}
+\end{center}
+\vfill
+\end{titlepage}
+%% Titelseite Ende
+
